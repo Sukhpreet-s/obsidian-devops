@@ -1,0 +1,3 @@
+[[DevOps/Domain 2/Lesson 1|Lesson 1]] - Define cloud infrastructure and reusable components to provision and manage systems throughout their lifecycle
+[[DevOps/Domain 2/Lesson 2]] - Deploy automation to create, onboard and secure AWS accounts in a multi-account/multi-Region environment
+[[DevOps/Domain 2/Lesson 3]] - Design and build automated solutions for complex tasks and large-scale environments.

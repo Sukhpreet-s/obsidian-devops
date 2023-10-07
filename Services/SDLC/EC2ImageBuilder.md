@@ -1,0 +1,4 @@
+- Automates creation, maintain, validate and test EC2 AMIs.
+- Can be run on schedule
+- Can publish AMI to multiple regions and multiple accounts.
+- Use CloudFormation to build images within pipeline

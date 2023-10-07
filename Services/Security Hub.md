@@ -1,0 +1,8 @@
+- performs automated, continuous <u>security best practice checks</u> against your AWS resources to help you identify misconfigurations
+- aggregates your security alerts (i.e. findings) in a standardized format
+- Security Hub offers additional standards aligned to industry and regulatory frameworks, such as
+	- [Payment Card Industry Data Security Standard (PCI DSS)](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-pcidss.html), 
+	- [Center for Internet Security (CIS) AWS Foundations Benchmark](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-cis.html)
+	- [National Institute of Standards and Technology (NIST)](https://docs.aws.amazon.com/securityhub/latest/userguide/nist-standard.html).
+- Automatically sends the security alerts to EventBridge. Then can create EventBridge rules to run Lambda, Step Functions, SSM Automation runbooks.
+- 

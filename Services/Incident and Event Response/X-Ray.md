@@ -1,0 +1,12 @@
+- Used to trace requests across microservices (distributed systems)
+- Integrations with:
+	- EC2 - need to install agent
+	- ECS - install agent  or docker container
+	- Lambda - simple integration 
+	- Beanstalk - agent is present by default, instance require IAM role to access X-Ray
+		-  To run X-ray daemon, set an option in `.ebextensions/xray-daemon.config` with 
+``			- option_settings:
+						- `aws:elasticbeanstalk:xray:`
+							- `XRayEnabled: true`
+	- API Gateway - helpful to debug errors such as 504
+- X-ray agent needs IAM permissions to X-ray
